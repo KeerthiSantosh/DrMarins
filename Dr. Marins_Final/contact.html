@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Marin's</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./components/molecule/aut-navbar/aut-navbar.css" />
+    <link rel="stylesheet" href="./components/molecule/aut-marins/aut-marins.css" />
+    <link rel="stylesheet" href="./components/atom/aut__circle/aut__circle.css" />
+    <link rel="stylesheet" href="./components/atom/aut__location/aut__location.css"/>
+    <link rel="stylesheet" href="./components/layout/aut__contactus/aut__contactus.css" />
+    <link rel="stylesheet" href="./components/atom/aut__btn/aut__btn.css" />
+    <link rel="stylesheet" href="./components/layout/aut-footer/aut-footer.css" />
+</head>
+
+<body>
+    <header>
+        <!--navbar-->
+        <nav class="aut-nav--bgcolor">
+            <div class="aut-marins__container">
+                <img src="./assests/img/Section-1/Dr.Marin's-Final-logo hirez.png" alt="Dr.Marin's" class="aut__logo">
+                <ul class="aut-nav__list">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a class="current" href="contact.html">Contact Us</a></li>
+                </ul>
+                <button class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!--contact us-->
+    <div class="content">
+    <section class="aut-marins aut-bg--gray">
+        <div class="aut-marins__container">
+            <div class="aut-marins__form">
+                <div class="aut__circle--center"></div>
+                <h1 class="aut-marins__text--big aut--black">Get in Touch</h1>
+                <p class="aut-marins__content aut--black">Support working time is Monday to Friday from 10:00 AM to 6:00
+                    PM IST.<br> The
+                    estimated time to respond will be 1-2 business days. </p>
+                <form action="/action_page.php">
+                    <div>
+                        <input type="text" class="form__input aut-bg--form aut--form aut-marins__title--sm aut--400"
+                            name="username" placeholder="Your name" required>
+                        <input type="email" class="form__input aut-bg--form aut--form aut-marins__title--sm aut--400"
+                            name="email" placeholder="Your email" required>
+                    </div>
+                    <input type="text" name="subject" class="form__col aut-bg--form aut--form aut-marins__title--sm aut--400"
+                        placeholder="Subject" required><br>
+                    <textarea class="form__textarea aut-bg--form aut--form aut-marins__title--sm aut--400" name="message"
+                        rows="4" cols="50">Message</textarea> <br>
+                    <button class="aut__btn aut__btn--mod aut-marins__title aut--600 aut__btn--blue aut--white">Send Message</button>
+            </div>
+            </form>
+        </div>
+    </section>
+    <!--location-->
+    <section class="aut-marins  aut-marins__loc aut-bg--platinum">
+        <div class="aut-marins__container">
+            <div class="aut__circle-end--big"></div>
+            <div class="aut-marins__location">
+                <div class="aut-marins__location">
+                    <div>
+                    <div class="aut__circle--big"></div>
+                    <h1 class="aut-marins__text--big aut--black">Locate Us</h1>
+                </div>
+            </div>
+            <div class="aut__loc">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8882968187027!2d78.36804439489181!3d17.417147525140226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9409711034f9%3A0x56d34bf36498b462!2sAce%20Atlantis!5e0!3m2!1sen!2sin!4v1613976844339!5m2!1sen!2sin"
+                width="1100" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+                <div class="aut__loc-mobile">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8882968187027!2d78.36804439489181!3d17.417147525140226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9409711034f9%3A0x56d34bf36498b462!2sAce%20Atlantis!5e0!3m2!1sen!2sin!4v1613976844339!5m2!1sen!2sin"
+                width="330" height="285" style="border:0; margin-top:50px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="aut__office-loc">
+                <h1 class="aut-marins__text--big aut--black">Office</h1>
+                <p class="aut-marins__caption aut--400">A-105, ACE Atlantis Apartments, Chaitanya<br> 
+                    Enclave, Khajaguda. Manikonda. Hyderabad <br> 500075
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+      <!--footer-->
+      <section class="aut-marins-footer aut-bg--black">
+        <div class="aut-marins__container aut-marins__container--mod">
+            <img src="./assests/img/Section-1/footer logo.png" alt="Dr .Marin's" class="footer__logo" />
+            <div class="aut-marins-footer__contact">
+                <div class="aut-marins__title--sm aut--gray aut--700">CONTACT US</div>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                                d="M5.84303 4.56825C9.24344 1.16784 14.7566 1.16784 18.157 4.56825C21.5574 7.96866 21.5574 13.4818 18.157 16.8822L16.97 18.0561C16.0952 18.9148 14.96 20.0187 13.5642 21.3683C12.6919 22.2117 11.3081 22.2115 10.436 21.3681L6.9449 17.9722C6.50614 17.5414 6.13887 17.1781 5.84303 16.8822C2.44262 13.4818 2.44262 7.96866 5.84303 4.56825ZM17.0963 5.62891C14.2817 2.81429 9.71832 2.81429 6.90369 5.62891C4.08907 8.44354 4.08907 13.0069 6.90369 15.8216L8.39077 17.289C9.20967 18.0905 10.2391 19.0909 11.4788 20.2899C11.7695 20.571 12.2308 20.571 12.5215 20.2899L15.9164 16.9885C16.3854 16.5282 16.7787 16.1392 17.0963 15.8216C19.911 13.0069 19.911 8.44354 17.0963 5.62891ZM12 7.99891C13.6577 7.99891 15.0016 9.34275 15.0016 11.0005C15.0016 12.6582 13.6577 14.002 12 14.002C10.3423 14.002 8.99847 12.6582 8.99847 11.0005C8.99847 9.34275 10.3423 7.99891 12 7.99891ZM12 9.49891C11.1707 9.49891 10.4985 10.1712 10.4985 11.0005C10.4985 11.8297 11.1707 12.502 12 12.502C12.8293 12.502 13.5016 11.8297 13.5016 11.0005C13.5016 10.1712 12.8293 9.49891 12 9.49891Z"
+                                fill="#C2C0C9" />
+                        </svg>
+                        <span>A-105, ACE Atlantis
+                            Apartments,<br />
+                            Chaitanya Enclave, Khajaguda.<br /> Manikonda.
+                            Hyderabad 500075</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                                d="M15.75 2C16.9926 2 18 3.00736 18 4.25V19.75C18 20.9926 16.9926 22 15.75 22H8.25C7.00736 22 6 20.9926 6 19.75V4.25C6 3.00736 7.00736 2 8.25 2H15.75ZM13.25 18H10.75C10.3358 18 10 18.3358 10 18.75C10 19.1642 10.3358 19.5 10.75 19.5H13.25C13.6642 19.5 14 19.1642 14 18.75C14 18.3358 13.6642 18 13.25 18Z"
+                                fill="#C2C0C9" />
+                        </svg>
+                        <span>9100267227</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                                d="M22 8.608V16.75C22 18.483 20.6435 19.8992 18.9344 19.9949L18.75 20H5.25C3.51697 20 2.10075 18.6435 2.00514 16.9344L2 16.75V8.608L11.652 13.6644C11.87 13.7785 12.13 13.7785 12.348 13.6644L22 8.608ZM5.25 4H18.75C20.4347 4 21.8201 5.28191 21.9838 6.92355L12 12.1533L2.01619 6.92355C2.17386 5.34271 3.46432 4.09545 5.06409 4.00523L5.25 4H18.75H5.25Z"
+                                fill="#C2C0C9" />
+                        </svg><span><a href="#">marin@drmarins.com</a></span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                                d="M12.0001 1.99902C17.5238 1.99902 22.0016 6.47687 22.0016 12.0006C22.0016 17.5243 17.5238 22.0021 12.0001 22.0021C6.47638 22.0021 1.99854 17.5243 1.99854 12.0006C1.99854 6.47687 6.47638 1.99902 12.0001 1.99902ZM14.939 16.5003H9.06118C9.71322 18.9144 10.8466 20.5021 12.0001 20.5021C13.1536 20.5021 14.287 18.9144 14.939 16.5003ZM7.5084 16.5009L4.78591 16.5007C5.74425 18.0338 7.1777 19.2394 8.88008 19.9114C8.3578 19.0915 7.92681 18.0653 7.60981 16.8959L7.5084 16.5009ZM19.2143 16.5007L16.4918 16.5009C16.168 17.8346 15.7004 19.0004 15.119 19.9114C16.716 19.2814 18.0757 18.1824 19.0291 16.7843L19.2143 16.5007ZM7.09351 9.99992H3.7359L3.73115 10.0171C3.57906 10.6535 3.49854 11.3176 3.49854 12.0006C3.49854 13.0567 3.69112 14.0679 4.0431 15.0009L7.21626 15.0005C7.07396 14.0514 6.99854 13.0432 6.99854 12.0006C6.99854 11.3166 7.031 10.6474 7.09351 9.99992ZM15.397 9.99999H8.60316C8.53514 10.6403 8.49853 11.31 8.49853 12.0006C8.49853 13.0601 8.58468 14.0704 8.73827 15.0007H15.2619C15.4155 14.0704 15.5016 13.0601 15.5016 12.0006C15.5016 11.31 15.465 10.6403 15.397 9.99999ZM20.2647 9.99909L16.9067 9.99994C16.9692 10.6474 17.0016 11.3166 17.0016 12.0006C17.0016 13.0432 16.9262 14.0514 16.7839 15.0005L19.9571 15.0009C20.309 14.0679 20.5016 13.0567 20.5016 12.0006C20.5016 11.3112 20.4196 10.6409 20.2647 9.99909ZM8.88114 4.08973L8.85823 4.09844C6.81092 4.91315 5.1549 6.50046 4.25023 8.50033L7.29835 8.50069C7.61171 6.7479 8.15855 5.22198 8.88114 4.08973ZM12.0001 3.49902L11.8844 3.50432C10.619 3.62008 9.39651 5.62205 8.8288 8.50027H15.1714C14.6052 5.63011 13.388 3.63131 12.1264 3.50534L12.0001 3.49902ZM15.1201 4.08979L15.2269 4.26388C15.8961 5.37635 16.4043 6.83623 16.7018 8.50069L19.7499 8.50033C18.8853 6.58892 17.3343 5.05439 15.4113 4.21106L15.1201 4.08979Z"
+                                fill="#C2C0C9" />
+                        </svg><span><a href="#">www.drmarins.com</a></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="aut-marins-footer__links">
+                <div class="aut-marins__title--sm aut--gray aut--700">LINKS</div>
+                <ul>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="therapy.html">Therapies</a></li>
+                </ul>
+            </div>
+            <div class="aut-marins-footer__social">
+                <div class="aut-marins__title--sm aut--gray aut--700">Follow us</div>
+                <ul>
+                    <li><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.5 16C23.5 11.8579 20.1421 8.5 16 8.5C11.8579 8.5 8.5 11.8579 8.5 16C8.5 19.7435 11.2426 22.8462 14.8281 23.4089V18.168H12.9238V16H14.8281V14.3477C14.8281 12.468 15.9478 11.4297 17.661 11.4297C18.4815 11.4297 19.3398 11.5762 19.3398 11.5762V13.4219H18.3941C17.4624 13.4219 17.1719 14 17.1719 14.5931V16H19.252L18.9194 18.168H17.1719V23.4089C20.7574 22.8462 23.5 19.7435 23.5 16Z"
+                                fill="white" />
+                            <rect x="0.5" y="0.5" width="31" height="31" rx="15.5" stroke="#E7E5F0"
+                                stroke-opacity="0.35" />
+                        </svg></li>
+                    <li><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.7332 12.0159C10.7332 11.3148 11.3022 10.7458 12.0076 10.7458C12.7099 10.7458 13.2813 11.3148 13.2813 12.0159C13.2813 12.7178 12.7099 13.2868 12.0076 13.2868C11.3022 13.2868 10.7332 12.7178 10.7332 12.0159ZM18.6985 14.0746C17.6892 14.0746 16.9935 14.5953 16.6731 15.12L16.6204 15.2125H16.59V14.2495H14.4847V21.297H16.6781V17.8117C16.6781 16.8922 16.8527 16.0015 17.9962 16.0015C19.0816 16.0015 19.1348 16.9759 19.1373 17.7783L19.1374 21.297H21.334V17.4316L21.3304 17.1357C21.2857 15.384 20.8061 14.0746 18.6985 14.0746ZM13.107 14.2496H10.9081V21.2971H13.107V14.2496Z"
+                                fill="white" />
+                            <rect x="0.5" y="0.5" width="31" height="31" rx="15.5" stroke="#E7E5F0"
+                                stroke-opacity="0.35" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="aut-marins-footer__hr">
+        <div class="aut-marins__caption aut--gray aut--400">&copy2021 DrMarin's</div>
+    </section>
+</div>
+<script src="./js/sidebar/sidebar.js"></script>
+</body>
+
+</html>

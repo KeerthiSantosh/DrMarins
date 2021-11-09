@@ -1,0 +1,15 @@
+.About_DRMarin {
+	animation: 0.98s linear 0s 1 normal forwards running About_DRMarin;
+	transform-box: fill-box;
+	transform-origin: 50% 50%
+}
+@keyframes About_DRMarin {
+	0% {
+		opacity: 0;
+		transform: translateY(0px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(-96px);
+	}
+}

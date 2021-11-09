@@ -1,0 +1,239 @@
+.aut-marins-big {
+  height: 600px;
+}
+.aut-marins-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.aut-marins-big div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aut-marins-big .aut-marins__text--sm {
+  z-index: 1;
+}
+.aut-marins-big .aut-marins__text--big {
+  margin-top: 15px;
+  z-index: 1;
+}
+.aut-marins-big {
+  background: url("../../../assests/group-kids-friends-arm-around-sitting-together\ 1.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.aut-marins-big .aut-marins__overlay {
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*aut__therapy*/
+.aut__therapy {
+  height: 550px;
+}
+.aut-marins-therapy {
+  height: 500px;
+  position: relative;
+}
+.aut-marins__left {
+  height: 467px;
+  width: 701px;
+}
+.aut-marins__right {
+  height: 467px;
+  width: 701px;
+  display: block;
+  margin-left: auto;
+}
+.aut-marins-therapy .aut-marins__content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 566px;
+  height: 265px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 45%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  padding: 0px 30px 0px 60px;
+}
+.aut-marins__content-right .aut-marins__text--big {
+  width: 550px;
+  padding-bottom: 20px;
+}
+.aut-marins__content-right .aut-marins__title {
+  width: 550px;
+}
+.aut-marins-therapy .aut-marins__content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 566px;
+  height: 265px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 45%;
+  right: 34%;
+  transform: translate(-50%, -50%);
+  padding: 0px 30px 0px 60px;
+}
+.aut-marins__content-left .aut-marins__text--big {
+  width: 550px;
+  padding-bottom: 20px;
+}
+.aut-marins__content-left .aut-marins__title {
+  width: 550px;
+}
+/*devlopment programs*/
+.aut-marins-dev {
+  height: 350px;
+  display: flex;
+}
+.aut-marins__dev-prog {
+  display: flex;
+}
+.aut-marins__dev-prog div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 216px;
+  width: 355px;
+  margin-right: 25px;
+  border: 1px solid #d0cedb;
+}
+.aut-marins__dev-prog .aut-marins__title {
+  text-align: center;
+  border: none;
+}
+.aut-marins__dev-prog .aut-marins__content {
+  text-align: center;
+  padding: 0px 10px 50px 10px;
+}
+.aut-marins__left-mobile {
+display:none;
+}
+.aut-marins__right-mobile {
+  display:none;
+}
+@media (max-width: 768px) {
+  .aut-marins-therapy {
+    height: 450px;
+  }
+  .aut-marins__content-left .aut-marins__text--big {
+    width: 350px;
+    margin-right:80px;
+    padding-bottom: 10px;
+  }
+  .aut-marins-big {
+    background: url("../../../assests/img/we\ love\ service_mobile.png");
+    width: 375px;
+    height: 495px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+  .aut-marins-big .aut-marins__overlay {
+    display: none;
+  }
+  .aut-marins-therapy .aut-marins__left {
+    display: none;
+  }
+  .aut-marins__left-mobile {
+    display: block;
+    margin-left: 20px;
+    width: 280px;
+    height: 200px;
+  }
+  .aut-marins-therapy .aut-marins__content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height:250px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left:160px;
+    top: 280px;
+    transform: translate(-50%, -50%);
+    padding: 0px 30px 0px 200px;
+  }
+  .aut-marins__content-right .aut-marins__text--big {
+    padding-left: 80px;
+  }
+  .aut-marins__content-right .aut-marins__title {
+    font-size:14px;
+    width: 430px;
+    padding-right:180px;
+    line-height:20px;
+  }
+  .aut-marins__right{
+    display: none;
+  }
+  .aut-marins__right-mobile{
+    display: block;
+    margin-left: 20px;
+    width: 280px;
+    height: 200px;
+  }
+  .aut-marins-therapy .aut-marins__content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height:250px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left:160px;
+    top: 280px;
+    transform: translate(-50%, -50%);
+    padding: 0px 30px 0px 200px;
+  }
+  .aut-marins__content-right .aut-marins__text--big {
+    width: 350px;
+   margin-right:210px;
+    padding-bottom: 20px;
+  }
+  .aut-marins__content-left .aut-marins__title {
+    font-size:14px;
+    width: 430px;
+    padding-right:180px;
+    line-height:20px;
+  }
+  .aut-marins-dev {
+    display: flex;
+   height:550px;
+  }
+  .aut-marins__dev-prog{
+    display: flex;
+    flex-direction: column;
+  }
+  .aut-marins__dev-prog .aut-marins__content {
+    padding-top:20px;
+    font-size:14px;
+    text-align: center;
+    border: none;
+  }
+  .aut-marins__dev-prog div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 146px;
+    margin:25px 20px 0px 20px;
+    border: 1px solid #d0cedb;
+  }
+}

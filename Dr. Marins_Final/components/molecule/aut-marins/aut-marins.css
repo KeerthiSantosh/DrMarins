@@ -1,0 +1,43 @@
+.aut-marins {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 680px;
+  position: relative;
+}
+.content {
+  display: block;
+}
+.content .aut-marins__gif {
+  display: none;
+}
+@media (max-width: 768px) {
+  .aut-marins{
+    display: flex;
+   height:800px;
+  }
+  .content .aut-marins__text--big {
+    padding: 0px 0px 0px 15px;
+    width: 350px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .content .aut-marins .aut-marins__content {
+    padding-left:15px;
+    width: 350px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+  .content .aut-marins__title {
+    padding-left: 15px;
+  }
+  .content .aut-marins__gif {
+    display: block;
+  }
+  .aut-marins__gif .welcome__gif {
+    margin-top: 30px;
+    width: 345px;
+    height: 250px;
+  }
+}

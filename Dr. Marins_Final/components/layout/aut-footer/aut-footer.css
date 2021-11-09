@@ -1,0 +1,108 @@
+.aut-marins-footer{
+    height:360px;
+    padding-top:30px;
+}
+.aut-marins-footer .footer__logo{
+    height:60px;
+}
+.aut-marins-footer .aut-marins__container--mod{
+    display:flex;
+    align-items: flex-start;
+}
+.aut-marins-footer__links li{
+    padding-top:15px;
+    list-style: none;
+}
+.aut-marins-footer__links a{
+    color: #E5E5E5;
+    font-size:13px;
+    font-weight:400;
+}
+
+.aut-marins-footer__contact li{
+    padding-top:15px;
+    color: #E5E5E5;
+    font-size:13px;
+    font-weight:400;
+    list-style: none;
+    display: flex;
+}
+.aut-marins-footer__contact a{
+    color: #E5E5E5;
+}
+.aut-marins-footer__contact span{
+    margin-left:15px;
+    padding-top:3px;
+    width:200px;
+}
+.aut-marins-footer__social{
+    display:flex;
+    flex-direction: column;
+  }
+.aut-marins-footer__social ul{
+    display:flex;
+  }
+.aut-marins-footer__social li{
+    padding-top:15px;
+    padding-right:20px;
+    color: #E5E5E5;
+    font-size:13px;
+    font-weight:400;
+    list-style: none;
+    display:flex;
+}
+
+.aut-marins-footer__hr{
+    display:flex;
+    border: 1px solid #44424F;
+    margin:20px 400px;
+}
+
+.aut-marins-footer .aut-marins__caption{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+}
+@media (max-width: 768px) {
+    .aut-marins-footer .aut-marins__container--mod{
+        display:flex;
+        flex-direction: column;
+        background-color: #28262F;
+        height:500px;
+    }
+ .aut-marins-footer .footer__logo{
+    padding-left:15px;
+    }
+    .aut-marins-footer .aut-marins-footer__contact {
+        padding-left:15px;
+        line-height:60px;
+    }
+    .aut-marins-footer .aut-marins-footer__contact ul li{
+        padding:0px 0px 10px 15px;
+        line-height: 15px;
+    }
+    .aut-marins-footer .aut-marins-footer__links{
+        padding:0px 0px 0px 15px;
+    }
+    .aut-marins-footer .aut-marins-footer__links ul{
+        display:flex;
+    }
+    .aut-marins-footer .aut-marins-footer__links li{
+        padding-left:15px;
+    }
+    .aut-marins-footer .aut-marins-footer__social{
+        padding-left:15px;
+        padding-bottom:20px;
+    }
+    .aut-marins-footer .aut-marins-footer__social li{
+        padding-left:15px;
+    }
+    .aut-marins-footer .aut-marins-footer__hr{
+        display:none;
+    }
+    .aut-marins-footer .aut-marins__caption{
+        display:none;
+    }
+  }
+  

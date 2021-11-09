@@ -1,0 +1,20 @@
+.aut-marins__parallex{
+    position: relative;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aut-marins__parallex img{
+    position: absolute;
+    width:100%;
+    object-fit: contain;
+  }
+  @media (max-width: 768px) {
+    .content .aut-marins__parallex img{
+     display:none;
+    }
+  }
+  

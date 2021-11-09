@@ -1,0 +1,63 @@
+.aut-about-pooja {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.aut__about-pooja-img {
+  position: absolute;
+  top: -270px;
+  right: -150px;
+}
+.aut__marin-img {
+  display: none;
+}
+
+.aut-about-pooja .aut-about-pooja__anim {
+  position: absolute;
+  right: 350px;
+  width: 310px;
+  z-index: 999;
+  margin-top: 190px;
+}
+.aut-about-pooja .aut-marins__content {
+  padding: 20px;
+  line-height: 25px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 72px rgba(5, 5, 5, 0.1);
+}
+.aut__location .aut__heading {
+  margin-bottom: 25px;
+}
+@media (max-width: 768px) {
+  .aut-marins--about {
+    height: 1100px;
+  }
+  .aut__pooja-img {
+    display: none;
+  }
+  .aut__marin-img {
+    display: block;
+  }
+  .aut-about-pooja {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .aut-about-pooja .aut-about-pooja__anim {
+    position: absolute;
+    right:50px;
+    top: -330px;
+    width: 310px;
+  }
+
+  .aut-about-pooja__anim .aut-marins__content {
+    height:250px;
+    line-height: 25px;
+    box-shadow: 0px 0px 72px rgba(5, 5, 5, 0.1);
+  }
+}

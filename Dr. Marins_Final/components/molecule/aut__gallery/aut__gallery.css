@@ -1,0 +1,26 @@
+.aut-marins-gallery{
+    height:900px;
+}
+.aut-marins-gallery .aut-marins__text--big{
+  height:200px;
+  padding-top:80px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+.aut-marins-gallery .aut-marins__gallery{
+    padding:25px 0px 0px 15px;
+}
+@media (max-width:768px) {  
+  .aut-marins-gallery{
+    height:1870px;
+}
+  .aut-marins-gallery .aut-marins__gallery{
+   display:flex;
+   width: 360px;
+   height: 274.61px;
+}
+.aut-marins-gallery .aut-marins__gallery{
+  padding:25px 15px 0px 15px;
+}
+}

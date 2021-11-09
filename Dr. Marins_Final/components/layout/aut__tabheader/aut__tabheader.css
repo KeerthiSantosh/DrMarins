@@ -1,0 +1,43 @@
+.aut__tab button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    height: 45px;
+    transition: 0.3s;
+    font-size: 14px;
+    margin-top:30px;
+    color: #000000;
+    background-color:#ECEBF4; 
+  }
+  
+   .aut__tab button.active {
+    background-color:#6449E9; 
+    color:#ffffff;
+  }
+  
+  /* Style the tab content */
+  .aut__tab .aut-marins__content{
+    margin-top:30px;
+    width: 400px;
+    line-height:30px;
+    height: 180px;
+  }
+  @media (max-width:768px) {  
+    .aut__tab button{
+      border: none;
+      outline: none;
+      cursor: pointer;
+      margin-left:15px;
+      width: 100px;
+      height: 45px;
+      transition: 0.3s;
+      font-size: 14px;
+      margin-top:30px;
+      color: #000000;
+      background-color:#ECEBF4; 
+    }
+ .aut__tab{
+   margin-bottom:550px;
+ }
+  }

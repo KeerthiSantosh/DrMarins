@@ -1,0 +1,123 @@
+nav {
+  display: flex;
+  position: fixed;
+  height: 80px;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  backdrop-filter: blur(50px);
+}
+
+nav .aut__logo {
+  margin: 15px 0px;
+}
+
+.aut-nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.aut-nav__list li {
+  margin-left: 40px;
+  position: relative;
+}
+
+nav li a {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+.aut-nav__list li a.current::before {
+  content: "";
+  color: #000000;
+  position: absolute;
+  top: -10px;
+  background-color: #6449e9;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  left: calc(50% - 5px);
+  transition: transform 0.4s linear;
+}
+.aut-nav__list li a.current {
+  color: #000000;
+  font-weight: bold;
+}
+.aut-nav__list li a:hover {
+  color: #000000;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.icon {
+  background-color:rgba(238,236,246,0.5); 
+  color: #000000;
+  font-size: 30px;
+  margin-top:25px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+  border: none;
+  outline:none;
+}
+
+@media (max-width:768px) {  
+  nav .aut__logo {
+    line-height: 80px;
+    margin-left: 15px;
+  }
+  nav ul li a {
+    display: flex;
+    padding-left:20px;
+    font-size: 18px;
+    font-weight:400;
+  }
+  .content {
+    display: none;
+    overflow-x: hidden;
+  }
+  .icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .aut-nav__list {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #EEECF6; 
+    backdrop-filter: blur(50px);
+    padding:100px 0px 0px 20px;
+    top: 0px;
+    left:0px;
+    display:none;
+    flex-direction: column;
+    transition: all .5s;
+  }
+  .aut-nav__list li a.current::before {
+    content: "";
+    color: #000000;
+    position: absolute;
+    top: 13px;
+    background-color: #6449e9;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    left: calc(50% - 175px);
+    transition: transform 0.4s linear;
+  }
+
+  .aut-nav__list li {
+    margin: 30px 0px;
+    line-height: 30px;
+  }
+  .aut-nav__list li a {
+    display: block;
+    font-size: 18px;
+  }
+
+  .content {
+    display: none;
+}
+}

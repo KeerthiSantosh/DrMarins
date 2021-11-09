@@ -1,0 +1,17 @@
+._Marin_img {
+	animation: 0.98s linear 0.01s 1 normal forwards running _Marin_img;
+	transform-box: fill-box;
+	transform-origin: 50% 50%
+}
+@keyframes _Marin_img {
+	0% {
+		transform: translateX(0px);
+	}
+	100% {
+		transform: translateX(-154px);
+		opacity: 1;
+	}
+	1.02% {
+		opacity: 0;
+	}
+}
